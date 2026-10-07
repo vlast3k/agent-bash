@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: bash-sandbox-agent-f984c
+  version: "1.0.0"
+  description: "AI agent that aggregates data from external MCP servers and executes local bash tools inside a sandboxed environment"
+
+assets:
+  - ref: ./assets/bash-sandbox-agent/asset.yaml
